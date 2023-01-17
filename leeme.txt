@@ -1,0 +1,24 @@
+crear una carpeta ROMS y poner dentro, al menos, el "monitor", y aconsejable "basic"
+
+
+monitor MPF1P.BIN
+0000 a 1FFF 8k
+
+basic  MPF1P-BASIC.bin
+2000 a 3FFF 8k (ram en F000 a F7FF?, 2k?)
+
+forth  MPF1P-FORTH.bin
+2000 a 3FFF 8k (ram en F000 a F7FF?, 2k?)
+
+video  VIOchar.bin o VIOv20.bin
+A000 a A7FF 2k (ram en 4000 a 47FF , 2k )
+
+demos  DEMO.BIN
+B000 a BFFF 4k 
+
+prt    MPF1P-PRT.bin
+.... +0FFF 4k
+
+robot ????
+.... +1FFF 8k
+

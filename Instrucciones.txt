@@ -1,0 +1,15 @@
+Notas:
+los cursores no funcionan como lo hacen en un ordenador normal, sino que son "especiales".
+Por ejemplo, cursor atras (izquierda) es "borrar", cursor adelante (derecha) es "tabulacion".
+Cursor abajo se usa para pasar lineas en los modos de desensamblado o de visualizado de registros.
+Por ejemplo, si pulsamos "R" (y enter), para ver el resto de registros, usamos cursor abajo.
+Si estamos en modo VIDEO, los registros SOLO se muestran en el video.
+Lo mismo para el comando "M" (memory) que sirve para ver la memoria en la direccion indicada.
+
+Para entrar en BASIC, escribimos "G 4000" y enter, esperamos unso segundos (no es el emulador, en el real es igual)
+y cuando pida ORG (direccion a usar como almacen) le damos la F000.
+
+Una demo de SEMAFORO, la obtenemos con "G B000", y vemos el texto GREEN, si esperamos, va cambiando a YELLOW y RED
+
+Si tenemos activa la ROM de video , podemos ver el resultado de la tabla ASCII con el comando:
+G A016 (y enter)

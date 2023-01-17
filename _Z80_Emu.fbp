@@ -1,0 +1,48 @@
+[Project]
+Version=3
+Description=Z80_Emu
+Api=fb (FreeBASIC)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Windows Console,fbc -lang fb -s console
+2=Windows GUI,fbc -lang fb -s gui
+Output=
+Run=
+Delete=
+[TabOrder]
+TabOrder=1,4,5,2,3,6,7
+CurrentTab=1
+[File]
+1=Z80_Emu.bas
+2=hard.bas
+3=Z80.bas
+4=declaraciones.bas
+5=variables.bas
+6=memoria.bas
+7=leds.bas
+Main=1
+[BreakPoint]
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+[FileInfo]
+1=0,106,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,218,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,3370,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,110,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6=0,43,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7=0,1043,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
